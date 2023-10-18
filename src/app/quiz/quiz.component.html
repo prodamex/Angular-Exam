@@ -1,0 +1,14 @@
+<section>
+  <h1 class="quiz_title">alright, let's play {{ playerName }}, prepare !</h1>
+
+  <section class="quiz_reset" *ngIf="isQuizFinished">
+    <h3>You can see your answers</h3>
+    <button class="btn--outline">Reset</button>
+  </section>
+  <section class="quiz_questions-list">
+    <app-question [idCategory]="idCategory"></app-question>
+  </section>
+  <div class="quiz_validation">
+    <button (click)="goToResultPage()" class="btn">Show score</button>
+  </div>
+</section>

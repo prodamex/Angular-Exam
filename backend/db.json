@@ -1,0 +1,137 @@
+{
+  "users":[
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password"
+    }
+  ],
+  "categories":[
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    },
+    {
+      "id": 3,
+      "name": "Huawei"
+    },
+    {
+      "id": 4,
+      "name": "Google Pixel"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "idCategory": 1,
+      "questionLabel": "What is Face ID in Apple devices?"
+    },
+    {
+      "id": 2,
+      "idCategory": 2,
+      "questionLabel": "What is Face ID in Samsung devices?"
+    },
+    {
+      "id": 3,
+      "idCategory": 3,
+      "questionLabel": "What is Face ID in Huawei devices?"
+    },
+    {
+      "id": 4,
+      "idCategory": 4,
+      "questionLabel": "What is Face ID in Google Pixel devices?"
+    }
+    
+  ],
+  "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "Reponse 1(true)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "Reponse 2",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "Reponse 3",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "Reponse 4",
+      "isCorrect": false
+    },
+    
+    {
+      "questionId": 2,
+      "answerLabel": "Reponse 1(true)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Reponse 2",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Reponse 3",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Reponse 4",
+      "isCorrect": false
+    },
+    
+    {
+      "questionId": 3,
+      "answerLabel": "Reponse 1(true)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "Reponse 2",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "Reponse 3",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "Reponse 4",
+      "isCorrect": false
+    },
+    
+    {
+      "questionId": 4,
+      "answerLabel": "Reponse 1(true)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Reponse 2",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Reponse 3",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Reponse 4",
+      "isCorrect": false
+    }
+    
+  ]
+}
+

@@ -1,0 +1,32 @@
+.categories {
+  .title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .form {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    .form-search {
+      align-items: center;
+      display: flex;
+        
+    }
+
+  }
+
+  .list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+  }
+}

@@ -1,0 +1,27 @@
+<section class="categories">
+  <h1 class="title">Les catégories</h1>
+
+  <div class="form">
+    <form class="search-form" [formGroup]="searchForm" (ngSubmit)="search()">
+      <div class="login_form-container">
+        <input
+          type="text"
+          placeholder="Rechercher une catégorie"
+          class="input"
+          formControlName="search"
+        />
+      </div>
+      <button type="submit" class="btn">Recherche</button>
+
+    </form>
+    <button (click)="reset()" class="btn">Annuler</button>
+  </div>
+
+  <ul class="list">
+    <li *ngFor="let category of filteredCategories; let i = index" >
+        <button  class="btn--outline" (click)="getQuizzByTheCategory(category.id)">
+            {{category?.name}}
+        </button>
+    </li>
+  </ul>
+</section>
